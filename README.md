@@ -1,6 +1,6 @@
 nonograms
 =========
-also known as picross
+*also known as picross*
 
 nonograms is a HTML 5 nonogram puzzle game. It's pure HTML, CSS and Javascript - no server side scripting required!
 
