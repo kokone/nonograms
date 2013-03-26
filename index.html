@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <title>Nonograms</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="image_src" href="preview.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script rel="javascript" type="text/javascript" src="js/puzzles.js"></script>
+    <script rel="javascript" type="text/javascript" src="js/grid.js"></script>
+    <script rel="javascript" type="text/javascript" src="js/eventhandler.js"></script>
+    <script rel="javascript" type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body onhashchange="initialize(600, 450);" onload="initialize(600, 450);">
+    <div id="top">
+      <h1>Nonograms</h1>
+      <small style="color:#aaaaaa">also known as picross</small><br>
+      <small><a href="/">back</a></small><br>
+      <small><a href="#0">puzzle 1</a></small> //
+      <small><a href="#1">puzzle 2</a></small> //
+      <small><a href="#2">puzzle 3</a></small>
+    </div>
+    <canvas id="canvas" width="600" height="450">I'm afraid you need to enable Javascript to play these puzzles!</canvas>
+    <p style="color:#222222">
+      <small>
+        left click to select and deselect cell //
+        right click to disable and enable cell //
+        click on a number to gray it out
+      </small><br>
+      <small id="time"></small>
+    </p>
+  </body>
+</html>
